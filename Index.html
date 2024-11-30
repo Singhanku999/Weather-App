@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="Index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="weather-card">
+      <h1 class="title">Weather App</h1>
+      <div class="search-bar">
+        <input type="text" id="city" placeholder="Enter city name">
+        <button id="getWeather">Search</button>
+      </div>
+      <div id="loading" class="loading hidden">Loading...</div>
+      <div class="weather-info hidden" id="weatherInfo">
+        <!-- Weather details will be injected here -->
+      </div>
+      <p style="margin-top: 20px; font-size: 0.9rem; color: rgba(102, 193, 229, 0.7);">
+        Created by Anku Kumar Singh
+      </p>
+    </div>
+  </div>
+  <script src="Index.js"></script>
+</body>
+</html>
+
